@@ -4,7 +4,11 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+<<<<<<< HEAD
     <groupId>top.wuml</groupId>
+=======
+    <groupId>top.chen</groupId>
+>>>>>>> 0c23d54 (IOC练习)
     <artifactId>spring-learning</artifactId>
     <version>1.0-SNAPSHOT</version>
 
