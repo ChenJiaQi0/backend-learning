@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="userDao" class="top.wuml.spring.ioc.UserDaoImpl"></bean>
+    <bean id="userService" class="top.wuml.spring.ioc.UserServiceImpl">
+        <property name="userDao" ref="userDao"/>
+        <property name="hello" value="hello"/>
+    </bean>
+    <bean id="cat" class="top.wuml.spring.ioc.Cat">
+        <constructor-arg name="name" value="miao~miao~"></constructor-arg>
+        <constructor-arg name="age" value="3"></constructor-arg>
+    </bean>
+
+    <bean id="dog" class="top.wuml.spring.ioc.Dog">
+        <constructor-arg name="name" value="wang~wang~"></constructor-arg>
+        <constructor-arg name="age" value="2"></constructor-arg>
+    </bean>
+    <bean id="book" class="top.wuml.spring.ioc.Book"></bean>
+    <bean id="bookByConstructor" class="top.wuml.spring.ioc.Book">
+        <constructor-arg name="bookId" value="1"/>
+        <constructor-arg name="bookName" value="水浒传"/>
+        <constructor-arg name="bookPrice" value="100.5"/>
+    </bean>
+
+    <bean id="clothes" class="top.wuml.spring.ioc.Clothes">
+        <constructor-arg name="color" value="蓝色"/>
+        <constructor-arg name="style" value="衬衫"/>
+    </bean>
+    <bean id="person" class="top.wuml.spring.ioc.Person">
+        <property name="clothes" ref="clothes"/>
+        <property name="name" value="小明"/>
+    </bean>
+
+    <bean id="p1" class="top.wuml.spring.ioc.Pen">
+        <property name="name" value="铅笔"/>
+    </bean>
+    <bean id="p2" class="top.wuml.spring.ioc.Pen">
+        <property name="name" value="圆珠笔"/>
+    </bean>
+    <bean id="p3" class="top.wuml.spring.ioc.Pen">
+        <property name="name" value="钢笔"/>
+    </bean>
+    <bean id="schoolBag" class="top.wuml.spring.ioc.SchoolBag">
+       <property name="color" value="blue"/>
+        <property name="pencilCase">
+            <list>
+                <ref bean="p1"/>
+                <ref bean="p2"/>
+                <ref bean="p3"/>
+            </list>
+        </property>
+    </bean>
+</beans>
