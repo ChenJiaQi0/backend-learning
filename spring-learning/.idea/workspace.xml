@@ -4,7 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2649b805-b9bb-4da3-b17a-9eb3669cdae7" name="Changes" comment="" />
+    <list default="true" id="2649b805-b9bb-4da3-b17a-9eb3669cdae7" name="Changes" comment="IOC练习">
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/wuml/spring/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/wuml/spring/ioc/AnimalTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/wuml/spring/ioc/Book.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/wuml/spring/ioc/BookTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/wuml/spring/ioc/Cat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/wuml/spring/ioc/Clothes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/wuml/spring/ioc/ClothesTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/wuml/spring/ioc/Dog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/wuml/spring/ioc/IocTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/wuml/spring/ioc/Pen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/wuml/spring/ioc/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/wuml/spring/ioc/SchoolBag.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/wuml/spring/ioc/SchoolBagTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/wuml/spring/ioc/SetterDITest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/wuml/spring/ioc/UserDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/wuml/spring/ioc/UserDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/wuml/spring/ioc/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/wuml/spring/ioc/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,17 +44,21 @@
     <option name="showScratchesAndConsoles" value="false" />
     <option name="sortByType" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/program/backend-learning&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/program/backend-learning",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager">
+}]]></component>
+  <component name="RunManager" selected="Application.top.chen.spring.ioc.SetterDITest">
     <configuration name="SetterDITest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="top.wuml.spring.ioc.SetterDITest" />
       <module name="spring-learning" />
@@ -47,8 +72,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="top.chen.spring.ioc.SetterDITest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top.chen.spring.ioc.SetterDITest" />
+      <module name="spring-learning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="top.chen.spring.ioc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.top.chen.spring.ioc.SetterDITest" />
         <item itemvalue="Application.SetterDITest" />
       </list>
     </recent_temporary>
@@ -62,10 +101,23 @@
       <option name="presentableId" value="Default" />
       <updated>1678093006992</updated>
       <workItem from="1678093008800" duration="250000" />
+      <workItem from="1678093266302" duration="431000" />
     </task>
+    <task id="LOCAL-00001" summary="IOC练习">
+      <created>1678093446657</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1678093446658</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="IOC练习" />
+    <option name="LAST_COMMIT_MESSAGE" value="IOC练习" />
   </component>
 </project>
