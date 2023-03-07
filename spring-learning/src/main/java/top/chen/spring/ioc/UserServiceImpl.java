@@ -1,8 +1,12 @@
 package top.chen.spring.ioc;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Service;
 
+@Service("UserService")
 public class UserServiceImpl implements UserService{
+    @Autowired
     private UserDao userDao;
     @Value("hello")
     private String hello;
