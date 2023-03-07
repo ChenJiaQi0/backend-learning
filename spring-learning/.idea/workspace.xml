@@ -4,54 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2649b805-b9bb-4da3-b17a-9eb3669cdae7" name="Changes" comment="IOC练习">
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/chen/spring/assemble/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/chen/spring/assemble/XmlBeanAssembleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/chen/spring/controller/AnnotationAssembleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/chen/spring/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/chen/spring/instance/constructor/Bean1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/chen/spring/instance/constructor/InstanceTest1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/chen/spring/instance/factory/Bean3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/chen/spring/instance/factory/InstanceTest3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/chen/spring/instance/factory/MyBean3Factory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/chen/spring/instance/static_factory/Bean2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/chen/spring/instance/static_factory/InstanceTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/chen/spring/instance/static_factory/MyBean2Factory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/chen/spring/scope/Scope.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/chen/spring/scope/ScopeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/bean1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/bean2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/bean3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/bean4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/bean5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/beans6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-mvc-learning/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-mvc-learning/.idea/artifacts/spring_mvc_learning_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-mvc-learning/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-mvc-learning/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-mvc-learning/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-mvc-learning/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-mvc-learning/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-mvc-learning/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-mvc-learning/spring-mvc-learning.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-mvc-learning/src/main/java/top/chen/controller/FirstController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-mvc-learning/src/main/java/top/chen/controller/FormController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-mvc-learning/src/main/java/top/chen/controller/FreemarkerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-mvc-learning/src/main/java/top/chen/controller/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-mvc-learning/src/main/java/top/chen/entity/R.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-mvc-learning/src/main/java/top/chen/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-mvc-learning/src/main/java/top/chen/entity/form.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-mvc-learning/src/main/resources/springmvc-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-mvc-learning/src/main/webapp/WEB-INF/ftl/test.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-mvc-learning/src/main/webapp/WEB-INF/jsp/first.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-mvc-learning/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-mvc-learning/src/main/webapp/form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-mvc-learning/src/main/webapp/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="2649b805-b9bb-4da3-b17a-9eb3669cdae7" name="Changes" comment="Spring 中的Bean">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/chen/spring/ioc/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/chen/spring/ioc/UserDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/chen/spring/ioc/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/chen/spring/ioc/UserServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,7 +149,7 @@
       <workItem from="1678093266302" duration="713000" />
       <workItem from="1678098959549" duration="610000" />
       <workItem from="1678168258794" duration="186000" />
-      <workItem from="1678186116901" duration="1485000" />
+      <workItem from="1678186116901" duration="1839000" />
     </task>
     <task id="LOCAL-00001" summary="IOC练习">
       <created>1678093446657</created>
@@ -218,7 +172,28 @@
       <option name="project" value="LOCAL" />
       <updated>1678093854771</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Spring 中的Bean">
+      <created>1678187695086</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678187695086</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Spring 中的Bean">
+      <created>1678187702077</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1678187702077</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Spring 中的Bean">
+      <created>1678187706030</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1678187706030</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,6 +201,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="IOC练习" />
-    <option name="LAST_COMMIT_MESSAGE" value="IOC练习" />
+    <MESSAGE value="Spring 中的Bean" />
+    <option name="LAST_COMMIT_MESSAGE" value="Spring 中的Bean" />
   </component>
 </project>

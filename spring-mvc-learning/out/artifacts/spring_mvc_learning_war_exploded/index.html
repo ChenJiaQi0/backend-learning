@@ -5,12 +5,10 @@
     <title>Title</title>
 </head>
 <body>
-<h2>问卷调查</h2>
-<form action="/invest" method="post">
-    姓名：<input type="text" name="username"><br>
-    性别：<input type="radio" name="gender" value="男"> 男
-    <input type="radio" name="gender" value="女"> 女<br>
-    选择这门课的原因：<textarea name="reason"></textarea><br>
+<h2>登录跳转</h2>
+<form action="/login" method="get">
+    姓名：<input type="text" name="username" required="required"><br>
+    密码：<input type="password" name="password" required="required">
     <button type="submit">提交</button>
 </form>
 </body>
