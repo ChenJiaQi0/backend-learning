@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <style>
+    .contain{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-80%,-80%);
+    }
+    .form{
+      text-align: left;
+      border: 1px solid black;
+      width: 500px;
+
+    }
+  </style>
+</head>
+<body>
+<div class="contain">
+  <h1>学员问卷调查</h1>
+  <div class="form">
+    <form action="/form" method="post">
+      <h3>你的姓名</h3>
+      <input type="text" name="name">
+      <h3>你正在学习的技术方向</h3>
+      <table>
+        <select name="course">
+          <option value="java">Java</option>
+          <option value="h5">HTML5</option>
+          <option value="Python">Python</option>
+          <option value="vue">Vue</option>
+        </select>
+      </table>
+      <div>
+        <h3>你的学习目的</h3>
+        <label>
+          <input type="checkbox" name="purpose" value="1">
+          就业找工作
+        </label>
+        <label>
+          <input type="checkbox" name="purpose" value="2">
+          纯粹感兴趣
+        </label>
+        <label>
+          <input type="checkbox" name="purpose" value="3">
+          工作需要
+        </label>
+        <label>
+          <input type="checkbox" name="purpose" value="4">
+          其他
+        </label>
+      </div>
+      <br>
+      <button type="submit">提交</button>
+    </form>
+  </div>
+</div>
+
+
+</body>
+</html>
